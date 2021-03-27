@@ -1,3 +1,6 @@
+# Minhas classes
+from pilha import Pilha
+
 # Array-based lists
 from arraydeque import ArrayDeque
 from arrayqueue import ArrayQueue
@@ -21,7 +24,7 @@ from binarytree import BinaryTree
 
 # Comparison-based SSets
 from skiplistsset import SkiplistSSet
-from binarysearchtree import  BinarySearchTree
+from binarysearchtree import BinarySearchTree
 from redblacktree import RedBlackTree
 from scapegoattree import ScapegoatTree
 from treap import Treap
@@ -35,8 +38,13 @@ from controllist import ControlList
 from controlsset import ControlSSet
 
 # Sorting algorithms
-from algorithms import merge_sort, quick_sort, heap_sort, \
-    counting_sort, radix_sort
+from algorithms import (
+    merge_sort,
+    quick_sort,
+    heap_sort,
+    counting_sort,
+    radix_sort,
+)
 
 # Graphs
 from adjacencymatrix import AdjacencyMatrix
@@ -49,5 +57,3 @@ from yfasttrie import YFastTrie
 
 # External memory data structures
 from btree import BTree, BlockStore  # fixme, don't need blockstore
-
-
