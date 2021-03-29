@@ -1,4 +1,4 @@
-from arraystack import ArrayStack
+from .arraystack import ArrayStack
 
 
 class Pilha(ArrayStack):

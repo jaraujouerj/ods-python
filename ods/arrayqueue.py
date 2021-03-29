@@ -1,7 +1,7 @@
 """An array-based implementation of a queue that uses modular arithmetic"""
-from utils import new_array
+from .utils import new_array
 
-from base import BaseList
+from .base import BaseList
 
 class ArrayQueue(BaseList):
     def __init__(self, iterable=[]):
